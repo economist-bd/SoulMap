@@ -133,7 +133,7 @@ const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
 
   // ---- Components ----
 
-  const HomeTab = () => (
+  const renderHomeTab = () => (
     <div className="p-6 space-y-8 animate-fade-in relative">
       
       {/* PWA Install App Simulation Header */}
@@ -183,7 +183,7 @@ const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
     </div>
   );
 
-  const BreatheTab = () => (
+  const renderBreatheTab = () => (
     <div className="p-6 h-full flex flex-col items-center justify-center space-y-12 mt-12 animate-fade-in">
       <div className="text-center">
         <h2 className="text-2xl font-bold text-stone-800">মন শান্ত করুন</h2>
@@ -205,7 +205,7 @@ const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
     </div>
   );
 
-  const JournalTab = () => (
+  const renderJournalTab = () => (
     <div className="flex flex-col h-[calc(100vh-80px)] bg-stone-50 animate-fade-in">
       <div className="p-4 bg-white shadow-sm z-10 flex flex-col items-center border-b border-stone-100">
         <div className="flex items-center gap-2">
