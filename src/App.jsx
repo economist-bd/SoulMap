@@ -266,9 +266,9 @@ const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
         
         {/* Main Content Area */}
         <div className="flex-1 overflow-y-auto pb-20 no-scrollbar">
-          {activeTab === 'home' && <HomeTab />}
-          {activeTab === 'breathe' && <BreatheTab />}
-          {activeTab === 'journal' && <JournalTab />}
+          {activeTab === 'home' && renderHomeTab()}
+          {activeTab === 'breathe' && renderBreatheTab()}
+          {activeTab === 'journal' && renderJournalTab()}
         </div>
 
         {/* Bottom Navigation */}
