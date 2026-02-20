@@ -1,0 +1,20 @@
+{
+  "short_name": "মনের শান্তি",
+  "name": "মনের শান্তি - AI Therapy App",
+  "icons": [
+    {
+      "src": "icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#10b981",
+  "background_color": "#faf9f6"
+}

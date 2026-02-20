@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="bn">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+    <!-- PWA Manifest Link -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#0f172a" />
+
+    <!-- SEO & Facebook (og:tags) -->
+    <title>ম্যাজিক সর্ট - ব্রেন শার্প গেম</title>
+    <!-- Primary Meta Tags -->
+<title>মনের শান্তি - অভ্যন্তরীণ শান্তি আনলক করুন</title>
+<meta name="title" content="মনের শান্তি - অভ্যন্তরীণ শান্তি আনলক করুন">
+<meta name="description" content="দৈনিক চাপ ও ক্লান্তি ঝেড়ে ফেলুন। আমাদের এআই থেরাপিস্টের সাথে কথা বলুন এবং শ্বাস-প্রশ্বাসের ব্যায়ামের মাধ্যমে নিজেকে শান্ত রাখুন।">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="[https://your-website-link.com/](https://your-website-link.com/)">
+<meta property="og:title" content="মনের শান্তি - SoulMap AI PWA">
+<meta property="og:description" content="দৈনিক চাপ ও ক্লান্তি ঝেড়ে ফেলুন। আমাদের এআই থেরাপিস্টের সাথে কথা বলুন।">
+<!-- নিচে আপনার অ্যাপের একটি সুন্দর ব্যানার ইমেজের লিংক দিন -->
+<meta property="og:image" content="[https://your-website-link.com/og-image.png](https://your-website-link.com/og-image.png)">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="[https://your-website-link.com/](https://your-website-link.com/)">
+<meta property="twitter:title" content="মনের শান্তি - SoulMap AI">
+<meta property="twitter:description" content="দৈনিক চাপ ও ক্লান্তি ঝেড়ে ফেলুন।">
+<meta property="twitter:image" content="[https://your-website-link.com/og-image.png](https://your-website-link.com/og-image.png)">
+
+<!-- PWA Theme Color -->
+<meta name="theme-color" content="#10b981">
+
+  </head>
+  <body class="bg-slate-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- PWA Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(error => {
+            console.log('SW registration failed: ', error);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
