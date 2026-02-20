@@ -1,11 +1,11 @@
 import React from 'react'
-import mind from './mind'
+import Mind from './Mind'
 
 function App() {
   return (
     <div>
       {/* আমাদের তৈরি করা গেমের কম্পোনেন্ট এখানে কল করা হলো */}
-      <mind />
+      <Mind />
     </div>
   )
 }
